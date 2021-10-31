@@ -139,27 +139,30 @@ aside div h2 {
     padding: 0;
     margin: 0; 
     flex: 0 0 100%; 
+    align-items: stretch;
     }
+
 .workContent > li {
     padding: 0;
 }
 .card {
     width: 250px;
-    padding: 10px;
+    height: 200px;
+    padding: 30px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
 }
 
 .card header {
-    padding: 20px;
     background: peachpuff;
     color: var(--textOne);
     justify-content: center;
 }
 
 .card img {
-    width: 100%;
+    width: 250px;
+    height: 200px;
 }
 
 /***************************************CONTACT INFO SECTION****/
