@@ -1,0 +1,96 @@
+/*CSS RESETS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+  }
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+/*ROOT STYLES*/
+:root {
+    --myPurple: rgb(49, 2, 49); 
+    --myWhite: rgb(233, 227, 227);
+    --myOrange: rgb(170, 80, 6);
+    --myPink: rgb(172, 48, 106);
+}
+
+body {
+    background-color: var(--myPurple);
+    color: var(--myOrange);
+}
+
+img {
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: var(--myPurple);
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    justify-content: space-between
+}
+
+.navbar-menu {
+    justify-content: center;
+    
+}
+
+.title {
+    color: var(--myOrange);
+    
+}
+
+.subtitle strong {
+    color: var(--myPink);
+}
+
+.subtitle {
+    color: var(--myOrange);
+}
+
+.navbar-item, .navbar-link {
+    color: var(--myPink);
+    font-size: 1.5rem;
+    
+}
+
+.side-Link {
+    color: var(--myPink);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+@media screen and (max-width: 768px) {
+    .side-Link {
+        writing-mode: unset;
+        text-orientation: unset;
+    }
+}
