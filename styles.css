@@ -98,6 +98,10 @@ body {
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+}
+
 .work-Card {
     border: 5px solid var(--myOrange);
    
@@ -123,4 +127,12 @@ body {
 
 .profile-pic-coming-soon {
     opacity: 20%;
+}
+
+#nav-links {
+    background: var(--myPurple);
+}
+
+.navbar-burger {
+    position:inherit;
 }
