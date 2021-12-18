@@ -1,122 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="resets" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Vienna's Portfolio</title>
-</head>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vienna B - Jnr. Dev</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+      integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
 
-<body>
-    <header class="header">
-        
-        <h1>VIENNA B</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#work">WORK</a>
-                    </li>
-                    <li>
-                        <a href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>  
+  <body>
+    <header class="is-flex-direction-column">
+        <img src="./Assets/Images/VBPP.png" width="300" height="300">
+      <h1 class="title is-2">Vienna B</h1>
+      <p class="subtitle is-3">
+        <strong>Junior Fullstack Developer</strong>
+        <br>
+        University of Manchester Coding Bootcamp
+      </p>
     </header>
+    <div class="block is-flex-wrap-wrap">
+      <nav class="navbar">
+        <div class="navbar-menu">
+          <a href="#menu-Sidelink-About" class="navbar-item is-3">About</a>
+          <a href="#menu-Sidelink-Work" class="navbar-item is-3">Work</a>
+          <a href="#menu-Sidelink-Contact" class="navbar-item is-3">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <main>
+    <section class="section" id="about-Row">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-2 has-text-centered" id="menu-Sidelink-About"><h1 class="side-Link title is-1">ABOUT</h1></div>
+                <div class="column is-10 content" id="about-Content">
+                    <br> 
+                    <br> 
+                    <p class="subtitle is-5">I am a junior full-stack developer (in training) with Manchester University's Coding Bootcamp focussing on the languages of HTML, CSS and JavaScript.
+                    <br>
+                    <br> 
+                    After graduating from Salford University in 2013 and subsequently building a career in the ethical investment sector of the Finance industry, I am eager to put my skills and energy to good use in an exciting new field!
+                    <br>
+                    <br> 
+                    And I really do mean GOOD use: the ethos of an employer of mine was <strong>"Gathering assets to do good"</strong>, and I believe this can be applied in many areas. I am gathering new assets (coding skills) and plan to use them to do good!
+                    I am partcularly interested in the areas of machine learning, eliminating bias in AI and increasing accesibility accross the technosphere.
+                    <br>
+                    <br> 
+                    I try to approach coding like a detective solving a mystery, and that helps to keep me motivated and engaged in my tasks.
+                    I am a fast learner with meticulous attention to detail and a creative flair, qualities I think will serve me well in my career ahead.</p>      
+                </div>
 
-<main class="allBelowNav">
-
-
-    <aside class="sidebar">
-        <div><h2 id="about">ABOUT</h2></div>
-        <div></div>
-        <div><h2 id="work">WORK</h2></div>
-        <div></div>
-        <div><h2 id="contact">CONTACT</h2></div> 
-    </aside> 
-    
-<section class="page">
-
-    <section class="aboutContent">
-        <br> 
-        <p>I am a junior full-stack developer (in training) with Manchester University's Coding Bootcamp focussing on the languages of HTML, CSS and JavaScript.</p>
-        <br>
-        <p>After graduating from Salford University in 2013 and subsequently building a career in the ethical investment sector of the Finance industry, I am eager to put my skills and energy to good use in an exciting new field! </p>
-        <br>
-        <p>And I really do mean GOOD use: the ethos of an employer of mine was <strong>"Gathering assets to do good"</strong>, and I believe this can be applied in many areas. I am gathering new assets (coding skills) and plan to use them to do good!</p>
-        <p>I am partcularly interested in the areas of machine learning, eliminating bias in AI and increasing accesibility accross the technosphere.</p> 
-        <br>
-        <p>I try to approach coding like a detective solving a mystery, and that helps to keep me motivated and engaged in my tasks.</p>
-        <p>I am a fast learner with meticulous attention to detail and a creative flair, qualities I think will serve me well in my career ahead.</p>       
+            </div>
+        </div>
     </section>
+    <section class="section" id="work-Row">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-2" id="menu-Sidelink-Work"><h1 class="side-Link title is-1">WORK</h1></div>
+                    <div class="column is-10">
+                        <div class="columns is-flex-wrap-wrap" id="work-Box">
+                            <div class="column is-12">
+                                <div class="work-Card card" id="javascript-quiz">
+                                    <div class="card-image">
+                                        <figure class="image is-200x200">
+                                            <a href="https://harkydev.github.io/FindMyFootballApp/" target="_blank">
+                                                <img src="./Assets/Images/fmf.jpg" alt="Screenshot of Find My Football homepage pre-search">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <a href="https://github.com/ViennaBorowska/Javascript-Quiz" target="_blank">
+                                                    <img class="profile-pic" src="./Assets/Images/VBPP.png" alt="profile picture - george melies moon">
+                                                </a>
+                                            </figure>
+                                            </div>
+                                            <div class="media-content">
+                                            <p class="title is-4">Group Project - Find My Football</p>
+                                            </div>
+                                        </div>                                    
+                                        <div class="content">
+                                            A project to build a site using interacting 3rd party APIs. 
+                                            <br> 
+                                            Find My Football is a site to search and see football stadium location, with directions, by team - along with extra team info.
+                                            <br>
+                                            <b>HTML</b> - <b>CSS</b> - <b>Javascript</b>  - <b>HERE API</b>  -  <b>Football Data API</b>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="work-Card card" id="javascript-quiz">
+                                    <div class="card-image">
+                                        <figure class="image is-200x200">
+                                            <a href="https://viennaborowska.github.io/Weather-Dashboard/" target="_blank">
+                                                <img src="./Assets/Images/weather.jpg" alt="Screenshot of a quiz start page with quiz information">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <a href="https://github.com/ViennaBorowska/Javascript-Quiz" target="_blank">
+                                                    <img class="profile-pic" src="./Assets/Images/VBPP.png" alt="profile picture - george melies moon">
+                                                </a>
+                                            </figure>
+                                            </div>
+                                            <div class="media-content">
+                                            <p class="title is-4">Weather Dashboard</p>
+                                            </div>
+                                        </div>                                    
+                                        <div class="content">
+                                            A dashboard to search and save weather forecasts for global cities.
+                                            <br>
+                                            <b>HTML</b> - <b>CSS</b> - <b>Javascript</b>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="work-Card card" id="javascript-quiz">
+                                    <div class="card-image">
+                                        <figure class="image is-200x200">
+                                            <a href="https://viennaborowska.github.io/Javascript-Quiz" target="_blank">
+                                                <img src="./Assets/Images/javascript-quiz.jpg" alt="Screenshot of a quiz start page with quiz information">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                <a href="https://github.com/ViennaBorowska/Javascript-Quiz" target="_blank">
+                                                    <img class="profile-pic" src="./Assets/Images/VBPP.png" alt="profile picture - george melies moon">
+                                                </a>
+                                            </figure>
+                                            </div>
+                                            <div class="media-content">
+                                            <p class="title is-4">Javascript Quiz</p>
+                                            </div>
+                                        </div>                                    
+                                        <div class="content">
+                                            A short quiz to challenge your Javascript knowledge. Scores are saved.
+                                            <br>
+                                            <b>HTML</b> - <b>CSS</b> - <b>Javascript</b>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="work-Card card" id="password-generator">
+                                    <div class="card-image">
+                                        <figure class="image is-200x200">
+                                            <a href="https://viennaborowska.github.io/Password-Generator" target="_blank">
+                                                <img src="./Assets/Images/password.jpg" alt="Screenshot of password generator start page.">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                            <figure class="image is-48x48">
+                                                    <a href="https://github.com/ViennaBorowska/Password-Generator" target="_blank">
+                                                        <img class="profile-pic" src="./Assets/Images/VBPP.png" alt="profile picture - george melies moon">
+                                                    </a>
+                                            </figure>
+                                            </div>
+                                            <div class="media-content">
+                                            <p class="title is-4">Password Generator</p>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="content">
+                                            Random secure password generator.
+                                            <br>
+                                            <b>HTML</b> - <b>CSS</b> - <b>Javascript</b>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="column">
+                                    <div class="work-Card card " id="refactor-Accesibility">
+                                        <div class="card-image">
+                                            <figure class="image is-200x200">
+                                                <a href="https://viennaborowska.github.io/Refactor-Accesibility/" target="_blank">
+                                                    <img src="./Assets/Images/screenreader.jpg" alt="Person with headphones using a screenreader on a laptop">
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <a href="https://github.com/ViennaBorowska/Refactor-Accesibility" target="_blank">
+                                                    <img class="profile-pic" src="./Assets/Images/VBPP.png" alt="profile picture - george melies moon">
+                                                    </a>
+                                                </figure>
+                                                </div>
+                                                <div class="media-content">
+                                                <p class="title is-4">Refactor - Accessibility</p>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="content">
+                                                Refactoring code to increase accesibility for future users and developers.
+                                                <br>
+                                                <b>HTML</b> - <b>CSS</b> 
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contact-Row">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-2" id="menu-Sidelink-Contact"><h1 class="side-Link title is-1">CONTACT</h1>
 
-    <section>
-        <ul class="workContent">
-            <li>
-                <article id="prework" class="card">
-                    <header>Pre-Work</header>
-                    <a href="https://viennaborowska.github.io/prework-about-me/" target="_blank">
-                    <img src="./Assets/Images/prework.jpg" alt="Desk with notebook, pen and screen" />
-                    </a>
-                    <p>HTML</p>
-                </article>
-            </li> 
-            <li>
-                <article id="accesibility" class="card">
-                    <header>Accesibility Refactor</header>
-                    <a href="https://viennaborowska.github.io/Refactor-Accesibility/" target="_blank">
-                    <img src="./Assets/Images/screenreader.jpg" alt="Laptop and screen Reader" />
-                    </a>
-                    <p>HTML - CSS</p>
-                </article>
-            </li>
-            <li>
-                <article id="portfolio" class="card">
-                    <header>Portfolio Page</header>
-                    <a href="https://viennaborowska.github.io/VB-Portfolio/" target="_blank">
-                    <img src="./Assets/Images/Portfolio.jpg" alt="HTML code for 'My First Webpage'" />
-                    </a>
-                    <p>HTML - CSS</p>
-                </article>
-            </li> 
-            <li>
-                <article id="fanpage" class="card">
-                    <header>Fanpage</header>
-                    <a href="https://viennaborowska.github.io/Fanpage/" target="_blank">
-                    <img src="./Assets/Images/JW.jpg" alt="Musician: Jack White" />
-                    </a>
-                    <p>HTML</p>
-                </article>
-            </li> 
-            <li>
-                <article id="RPS" class="card">
-                    <header>COMING SOON</header>
-                    <img src="./Assets/Images/RPS.jpg" alt="Rock paper scissors, cartoon hands" />
-                    <p>Rock-Paper-Scissors</p>
-                    <p>JavaScript</p>
-                </article>
-            </li>  
-    </section>
-        
-        <footer>
-            <section class="contactContent"></section>
-            <a href="mailto:vienna.borowska@hotmail.com" target="_blank">
-            <p> Email </p>
-            </a>
-            <a href="https://github.com/ViennaBorowska" target="_blank">
-            <p> GitHub </p>
-            </a>
-            <a href="https://uk.linkedin.com/in/vienna-borowska-60b546149" target="_blank">
-            <p> LinkedIn</p>
-            </a>
-        </footer>
-    </section>
-</section>
+                    </div>
 
+                    <div class="column is-10">
+                        <div class="columns is-flex-wrap-wrap" id="work-Box">
+                            <div class="column">
+                                <figure>
+                                        <a href="https://github.com/ViennaBorowska" target="_blank">
+                                            <img class="profile-pic" src="./Assets/Images/Contact/github.png" alt="profile picture - george melies moon">
+                                        </a>
+                                </figure>
+                            </div> 
+                            <div class="column">
+                                <figure>
+                                        <a href="mailto:88041770+ViennaBorowska@users.noreply.github.com"" target="_blank">
+                                            <img class="profile-pic" src="./Assets/Images/Contact/email.png" alt="profile picture - george melies moon">
+                                        </a>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure>
+                                        <a href="mailto:88041770+ViennaBorowska@users.noreply.github.com"" target="_blank">
+                                            <img class="profile-pic-coming-soon" src="./Assets/Images/Contact/linkedin.png" alt="profile picture - george melies moon">
+                                        </a>
+                                </figure>
+                            </div>
+                        </div>         
+                 </div>
+
+                </div>
+            </div>
+        </section>
 </main>
-</body>
+  </body>
+  <script src="./script.js"></script>
 </html>

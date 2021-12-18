@@ -1,4 +1,4 @@
-/*CSS RESETS*/
+/*CSS & BULMA RESETS*/
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +15,16 @@
     font-family: sans-serif;
   }
   
+  
+img {
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
   h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
   }
@@ -37,19 +47,12 @@
     --myPink: rgb(172, 48, 106);
 }
 
+/*BACKGROUND STYLES*/
 body {
     background-color: var(--myPurple);
     color: var(--myOrange);
 }
 
-img {
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    padding: 10px;
-}
 
 .navbar {
     background-color: var(--myPurple);
@@ -93,4 +96,31 @@ header {
         writing-mode: unset;
         text-orientation: unset;
     }
+}
+
+.work-Card {
+    border: 5px solid var(--myOrange);
+   
+}
+
+.card-image:hover {
+    opacity: 50%;
+}
+
+.profile-pic:hover {
+    opacity: 30%
+}
+
+#contact-icons {
+    height: 200px;
+    width: 200px;
+
+}
+
+#contact-title {
+    font-stretch: ultra-expanded;
+}
+
+.profile-pic-coming-soon {
+    opacity: 20%;
 }
