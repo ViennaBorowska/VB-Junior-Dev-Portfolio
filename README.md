@@ -38,7 +38,7 @@ I have improved the style and layout of the page in this update, which was my ma
 * README.md - contact information, file information
 * index.html - HTML code
 * assets 
-    1. < styles.css = CSS stylesheet
-    2. < script.js = JavaScript file
-    3. < images folder = all images linked in code 
+    1.  styles.css = CSS stylesheet
+    2.  script.js = JavaScript file
+    3.  images folder = all images linked in code 
 
