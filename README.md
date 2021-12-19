@@ -33,6 +33,7 @@ I have improved the style and layout of the page in this update, which was my ma
 * HTML file is big - could create work cards dynamically with JavaScript
 * Add more elements to page to demonstrate skills and improve UI e.g. some animation
 * Include contact link to LinkedIn - profile not yet created
+* Contact links could be smaller/more uniform in their style - could utilise FontAwesome for these icons
 
 ## FILES
 * README.md - contact information, file information
