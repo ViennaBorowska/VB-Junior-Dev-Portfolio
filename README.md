@@ -4,7 +4,7 @@ Vienna Borowska - University of Manchester Coding Bootcamp - vienna.borowska@hot
 ## DEPLOYED SITE
 https://viennaborowska.github.io/VB-Junior-Dev-Portfolio/
 
-<img src="Assets/Images/demo.gif"> 
+<img src="Assets/Images/demo.gif" alt="Demo gif of profile page - scroll down page to see sections and demonstrate menu links to content"> 
 
 ## LANGUAGE
 HTML - CSS - JavaScript
