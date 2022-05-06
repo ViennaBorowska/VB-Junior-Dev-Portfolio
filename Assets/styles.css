@@ -26,7 +26,7 @@ img {
 }
 
 .subtitle strong {
-  color: var(--myPink);
+  color: var(--myWhite);
 }
 
 .subtitle {
@@ -71,7 +71,6 @@ ROOT STYLES
   --myPurple: rgb(49, 2, 49);
   --myWhite: rgb(233, 227, 227);
   --myOrange: rgb(170, 80, 6);
-  --myPink: rgb(172, 48, 106);
 }
 
 /*****************
@@ -98,7 +97,7 @@ NAVBAR
 
 .navbar-item,
 .navbar-link {
-  color: var(--myPink);
+  color: var(--myWhite);
   font-size: 1.5rem;
 }
 
@@ -115,7 +114,7 @@ MENU SIDE LINKS
 ****************/
 
 .side-Link {
-  color: var(--myPink);
+  color: var(--myWhite);
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
@@ -126,6 +125,14 @@ MENU SIDE LINKS
     text-orientation: unset;
   }
 }
+/**********
+ABOUT SECTION
+***********/
+
+.cv-link {
+  text-decoration: underline;
+  text-align: center;
+}
 
 /**********
 WORK CARDS
@@ -134,12 +141,27 @@ WORK CARDS
   border: 5px solid var(--myOrange);
 }
 
+.card-small {
+  min-height: 450px;
+}
+
+.content {
+  line-height: 1.5;
+}
+
 .card-image:hover {
   opacity: 50%;
 }
 
 .profile-pic:hover {
   opacity: 30%;
+}
+
+@media screen and (max-width: 1025px) {
+  .card-small {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /****************
