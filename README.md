@@ -39,6 +39,13 @@ I have made some adjustments and additions to the site. I have added our 2nd gro
 I have updated my LinkedIn profile and included a link to this in the contact section. I have also included a downloadable link to my CV (saved as PDF).
 I have improved the responsiveness of the work-cards.
 
+## UPDATE 04.05.22
+
+I have now reorganised the Assets folder to the CSS has a styles folder and the project images have their own folder also.
+The project cards now have a uniform height.
+I have updated the projects and tidied up the links so all projects have a deployed page and repository link.
+Tooltips have been included for further clarity.
+
 ## IMPROVEMENTS
 
 I have improved the style and layout of the page in this update, which was my main focus, but there are further improvements for the future;
@@ -52,6 +59,7 @@ I have improved the style and layout of the page in this update, which was my ma
 - README.md - contact information, file information
 - index.html - HTML code
 - assets
-  1.  styles.css = CSS stylesheet
+  1.  styles = CSS stylesheet
   2.  script.js = JavaScript file
-  3.  images folder = all images linked in code
+  3.  images = all images linked in code
+  4.  VB-Dev-Resume.pdf - CV file
